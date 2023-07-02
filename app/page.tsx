@@ -1,9 +1,15 @@
 'use client';
 
 import SocialMedia from '@/components/SocialMedia';
+import { loadDataAPI } from './services/riotAPI';
 
 export default function Home() {
         const handleContact = () => {
+          loadDataAPI().then((response) => {
+            alert(response.name);
+           }
+         
+           )
 
         }
         const instagram = () =>{
