@@ -1,9 +1,6 @@
 'use client';
 
-import Link from 'next/link'
-import Options from '@/components/Options'
-import { link } from 'fs';
-import SocialMedia from '@/components/socialMedia';
+import SocialMedia from '@/components/SocialMedia';
 
 export default function Home() {
         const handleContact = () => {
